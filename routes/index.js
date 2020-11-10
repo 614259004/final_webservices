@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const myData = require('../topTenRecovered');
-const Coviddata = require('../coviddata');
+const Coviddata = require('../data');
 
 router.get('/',(req,res)=>{
     res.render('index',{Coviddata});
