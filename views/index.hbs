@@ -7,8 +7,9 @@
 <div class="form">
 
     <div class="putidsasom">
-        <h2>{{Coviddata.Putidsasom}}</h2>
-        <div class="buttomsasom">
+        <h2 id="text1">{{Coviddata.Putidsasom}}</h2>
+        <h5 style="margin-left:35%">ผู้ติดเชื้อสะสม</h5>
+        <div class="buttomsasom" id="box1">
             <i class="fas fa-chevron-up"></i>
             <p>เพิ่มขึ้น</p>
             <h2>{{Coviddata.Putidsasom-no}}</h2>
@@ -18,8 +19,9 @@
     <div class="covid-group">
 
         <div class="kamlanglaksa">
-            <h2>{{Coviddata.kamlangraksa}}</h2>
-            <div class="buttomsasom">
+            <h2 id="text2">{{Coviddata.kamlangraksa}}</h2>
+            <h5 style="margin-left:38%">กำลังรักษา</h5>
+            <div class="buttomsasom" id="box2">
                 <i class="fas fa-angle-down"></i>
                 <p>ลดลง</p>
                 <h2>{{Coviddata.kamlangraksa-no}}</h2>
@@ -27,11 +29,22 @@
         </div>
 
         <div class="kamlanglaksa">
-            <h2>{{Coviddata.haylaw}}</h2>
-            <div class="buttomsasom">
-                <i class="fas fa-minus"></i>
-                <p>ลดลง</p>
+            <h2 id="text3">{{Coviddata.haylaw}}</h2>
+            <h5 style="margin-left:40%" >หายแล้ว</h5>
+            <div class="buttomsasom" id="box2">
+                <i class="fas fa-chevron-up"></i>
+                <p>เพิ่มขึ้น</p>
                 <h2>{{Coviddata.haylaw-no}}</h2>
+            </div>
+        </div>
+
+        <div class="kamlanglaksa">
+            <h2 id="text4">{{Coviddata.seachewid}}</h2>
+            <h5 style="margin-left:40%">เสียชีวิต</h5>
+            <div class="buttomsasom" id="box3">
+                <i class="fas fa-minus"></i>
+                <p>คงที่</p>
+                <h2>{{Coviddata.seachewid-no}}</h2>
             </div>
         </div>
 

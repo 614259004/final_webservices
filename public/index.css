@@ -7,12 +7,119 @@ body{
 
 .hau{
     display: flex;
+    margin-left: 25%;
+}
+
+.hau h3{
+    margin-top: 2.5%
 }
 
 .form{
     display: flex;
+    margin-left: 20%;
+    margin-bottom: 10%;
 }
 
 .buttomsasom{
     display: flex;
+    width: 100px;
+    height: 25px;
+    margin-left: 25%;
+}
+
+.kamlanglaksa{
+    padding: 40px;
+    padding: 50px;
+    border: 1px solid #4ab8f8;
+    box-shadow: 0 0 20px #4ab8f8;
+    }
+
+
+#text1{
+    font-size: 60px;
+    margin-top: 80%;
+    margin-left: 25%;
+}
+
+#text2 {
+    font-size: 40px;
+    margin-left: 40%;
+}
+
+#text3 {
+    font-size: 40px;
+    margin-left: 35%;
+}
+
+#text4 {
+    font-size: 40px;
+    margin-left: 40%;
+}
+
+#box1{
+    border: 1px solid #eb4141;
+    box-shadow: 0 0 20px #eb4141;
+    padding: 10px 20px;
+    color: #eb4141;
+}
+
+#box1:hover{
+    background-color: #eb4141;
+    border: 1px solid #eb4141;
+    box-shadow: 0 0 20px #eb4141;
+    color: rgb(32, 30, 30);
+}
+
+#box2{
+    border: 1px solid #74f155;
+    box-shadow: 0 0 20px #74f155;
+    padding: 10px 20px;
+    color: #74f155;
+}
+
+#box2:hover {
+    background-color: #74f155;
+    border: 1px solid #74f155;
+    box-shadow: 0 0 20px #74f155;
+    color: rgb(32, 30, 30);
+}
+
+#box3{
+    border: 1px solid #f1e155;
+    box-shadow: 0 0 20px #f1e155;
+    padding: 10px 20px;
+    color: #f1e155;
+}
+
+#box3:hover {
+    background-color: #f1e155;
+    border: 1px solid #f1e155;
+    box-shadow: 0 0 20px #f1e155;
+    color: rgb(32, 30, 30);
+}
+
+.buttomsasom i{
+    margin-top: 4%;
+}
+
+.buttomsasom p{
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 2.5px;
+}
+
+.buttomsasom h2{
+    margin-top: -3.2%;
+    margin-left: 20px;
+}
+.putidsasom{
+    padding: 50px;
+    border: 1px solid #4ab8f8;
+    box-shadow: 0 0 20px #4ab8f8;
+    width: 25%;
+    margin-left: 5%;
+}
+
+.covid-group{
+    width: 35%;
 }
